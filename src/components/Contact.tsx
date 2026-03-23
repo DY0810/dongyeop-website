@@ -57,7 +57,7 @@ export default function Contact() {
               </svg>
             </a>
             <a
-              href="https://linkedin.com/in/dongyeoplee"
+              href="https://www.linkedin.com/in/dong-yeop-lee"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted hover:text-accent transition-colors duration-300"
