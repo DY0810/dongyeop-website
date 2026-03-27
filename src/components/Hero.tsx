@@ -73,15 +73,11 @@ export default function Hero() {
             text="DongYeop"
             className="block"
             delay={500}
-            speed={35}
-            scrambleSpeed={2.5}
           />
           <TextScramble
             text="Lee"
             className="block italic text-accent mt-2"
             delay={900}
-            speed={25}
-            scrambleSpeed={3}
           />
         </h1>
 

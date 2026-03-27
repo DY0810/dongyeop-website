@@ -4,6 +4,7 @@ import { useRef } from "react";
 import { motion } from "framer-motion";
 import BlurFade from "./BlurFade";
 import TiltCard from "./TiltCard";
+import OrbitalProjects from "./OrbitalProjects";
 
 const featured = [
   {
@@ -277,8 +278,13 @@ export default function Projects() {
           </div>
         </BlurFade>
 
+        {/* Interactive orbital view */}
+        <BlurFade delay={0.1} yOffset={30}>
+          <OrbitalProjects />
+        </BlurFade>
+
         {/* Featured projects */}
-        <div className="mb-20">
+        <div className="mb-20 mt-16">
           {featured.map((project, i) => (
             <FeaturedProject key={project.title} project={project} index={i} />
           ))}
